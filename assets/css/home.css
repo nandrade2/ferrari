@@ -20,7 +20,7 @@
 
 
 #home header h1 {
-    color: #FFF;
+    color: var(--white);
     font-size: 4em;
     font-weight: bold;
     text-align: right;
@@ -60,16 +60,16 @@
 #home .galery figure figcaption p {
     margin: 0;
     font-size: 12px;
-    font-weight: #ccc;
+    font-weight: var(--grayC);
 }
 
 
 
 #home header a {
-    border: #fff 2px solid;
+    border: var(--white) 2px solid;
     border-radius: 8px;
     padding: 10px 32px;
-    color: #fff;
+    color: var(--white);
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -93,13 +93,13 @@
 
 #home .inspiration .text h2 {
     font-size: 40px;
-    color: #333;
+    color: var(--gray3);
     text-transform: uppercase;
     margin: 1em 0;
 }
 
 #home .inspiration .text p {
-    color: #555;
+    color: var(--gray5);
     text-align: right;
     max-width: 75vw;
     font-size: 24px;
@@ -107,7 +107,7 @@
 
 #home .inspiration .car {
     position: absolute;
-    background: url('/assets/images/index/ferrari.png');
+    background: url('/assets/images/index/ferrari-sf90.jpg');
     background-position: contain;
     background-repeat: no-repeat;
     width: 684px;
@@ -118,6 +118,23 @@
 }
 
 
+#home .know {
+    background-color: var(--light);
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 2em;
+}
 
+#home .know h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: right;
+    color: var(--gray3);
+    margin: 1em 0;
+}
+
+#home .know img {
+    width: 194px;
+}
 
 

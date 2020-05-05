@@ -9,14 +9,14 @@
     align-items: center;
 }
 
-#footer button{
+#footer button {
     position: absolute;
     right: 20px;
     background: var(--light);
-    color: var(--light);
+    color: var(--dark);
     box-shadow: var(--black) 0 3px 6px;
     border: none;
-    border-radius: 50;
+    border-radius: 50%;
     width: 70px;
     height: 70px;   
     outline: none;
